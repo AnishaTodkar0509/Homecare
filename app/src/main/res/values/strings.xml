@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SmartHomeMaintainance</string>
+    <string-array name="maintenance_service_types">
+        <item>Routine Service</item>
+        <item>Cleaning</item>
+        <item>Inspection</item>
+        <item>Repair</item>
+        <item>Filter Replacement</item>
+        <item>Other</item>
+    </string-array>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="512dp"
+    android:height="512dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <!-- Soft outer home shape -->
+    <path
+        android:fillColor="@color/homecare_primary_light"
+        android:pathData="M256,40
+        C136,40 40,136 40,256
+        C40,376 136,472 256,472
+        C376,472 472,376 472,256
+        C472,136 376,40 256,40 Z" />
+
+    <!-- House roof -->
+    <path
+        android:fillColor="@color/homecare_primary"
+        android:pathData="M92,242
+        L256,92
+        L420,242
+        L393,271
+        L256,147
+        L119,271 Z" />
+
+    <!-- House body -->
+    <path
+        android:fillColor="@color/homecare_primary"
+        android:pathData="M135,246
+        L135,384
+        L377,384
+        L377,246
+        L345,217
+        L345,350
+        L167,350
+        L167,217 Z" />
+
+    <!-- Door -->
+    <path
+        android:fillColor="@color/homecare_primary_dark"
+        android:pathData="M224,282
+        L288,282
+        L288,384
+        L224,384 Z" />
+
+    <!-- Door knob -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M272,332
+        A6,6 0,1 0,284 332
+        A6,6 0,1 0,272 332 Z" />
+
+    <!-- Window -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M192,181
+        L320,181
+        L320,265
+        L192,265 Z" />
+
+    <!-- Window vertical -->
+    <path
+        android:fillColor="@color/homecare_primary_dark"
+        android:pathData="M252,181
+        L260,181
+        L260,265
+        L252,265 Z" />
+
+    <!-- Window horizontal -->
+    <path
+        android:fillColor="@color/homecare_primary_dark"
+        android:pathData="M192,219
+        L320,219
+        L320,227
+        L192,227 Z" />
+
+    <!-- Small heart/care symbol -->
+    <path
+        android:fillColor="@color/homecare_primary_dark"
+        android:pathData="M256,116
+        C244,98 214,103 214,128
+        C214,148 256,170 256,170
+        C256,170 298,148 298,128
+        C298,103 268,98 256,116 Z" />
+
+</vector>
